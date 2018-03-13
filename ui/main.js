@@ -7,7 +7,7 @@ button.onclick=function(){
     //capture the response and store it in a varaible
     
     //render the varible in the correct span
-    countter=counter +1;
+    counter=counter +1;
     var span=document.getElementById('count');
     sapn.innerHtml=counter.toString();
     
