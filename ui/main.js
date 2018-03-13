@@ -11,7 +11,7 @@ button.onclick=function(){
     
     //render the varible in the correct span
     counter=counter +1;
-    var span=document.getElementById('count');
+    var span=document.getElementById("count");
     sapn.innerHtml=counter.toString();
     
 };
